@@ -45,7 +45,7 @@ function obfuscate(initialPath){
                         if(err){
                             throw console.log(err);
                         }else{
-                            console.log("Obfuscate => "+filename+" success.")
+                            console.log('Obfuscate => '+filename+' success.')
                         }
                     })
                 })
